@@ -38,5 +38,5 @@ fn = async (a, b) => {
 inputs = [5,10]
 t = 150
 
-timeLimit(fn, t)(...inputs)
+timeLimit(fn, t)(...inputs) // () ()
     .then(console.log)
